@@ -1,0 +1,125 @@
+.nav-link {
+    font-size: 20px;
+    margin-left: 80px;
+}
+body {
+    background-color: #e6e6e6;
+}
+.dropdown-item {
+    font-size: 20px;
+}
+.navbar-brand {
+    padding: 0px;
+}
+a:hover {
+    color: white;
+}
+a:visited {
+    color: black;
+}
+.collapse navbar-collapse a {
+    color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.centered {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 46px;
+    color: #1d0f01;
+    font-family: initial;
+}
+.centered1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 73px;
+    color: #be9210;
+    margin-top: 73px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.navbar-light .navbar-toggle {
+   outline: 0;
+}
+.card {
+    width: 100%;
+    text-align: center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.centered1 {
+    font-size: 23px;
+    position: relative;
+}
+.centered {
+    font-size: 26px;
+    position: relative;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) { 
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+footer{
+    background-color: #333333;
+     padding: 20px;
+     width: 100%;
+}
+footer ul li{
+  
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin-left: 30px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
